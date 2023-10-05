@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(120, 119, 119);
+}
+header{
+    background-color: rgb(131, 0, 0);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 50%;
+}
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+}
+.logo{
+    width: 50%;
+    padding: 100px;
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    left: 23%;
+}
+.logo img{
+    width: 600px;
+    display: flexbox;
+    justify-content: center;
+}
+.informacoes{
+    width: 50%;
+    padding: 75px;
+    background-color: transparent;
+    border: solid rgb(131, 0, 0) 10px; 
+    border-radius: 50px;
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#texto{
+    color: white;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+.informacoes h1{
+    font-size: 35px;
+}
+.informacoes p{
+    font-size: 25px;
+}
+
+.produto1{
+    width: min-content;
+    padding: 120px;
+    background-color: transparent;
+    border: solid rgb(131, 0, 0) 10px; 
+    border-radius: 50px;
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    left: 8%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.produto1 img{
+    height: 10px;
+}
+
+.produto2{
+    width: 5%;
+    min-width: min-content;
+    padding: 120px;
+    background-color: transparent;
+    border: solid rgb(131, 0, 0) 10px; 
+    border-radius: 50px;
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    bottom: 257px;
+    left: 70%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.produto3{
+    width: 5%;
+    min-width: min-content;
+    padding: 120px;
+    background-color: transparent;
+    border: solid rgb(131, 0, 0) 10px; 
+    border-radius: 50px;
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    bottom: 517px;
+    left: 39%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
